@@ -1,0 +1,27 @@
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #00ffff;
+  }
+  
+  .header-nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+  }
+  
+  .header-nav li {
+    margin-right: 100px; /* Espacio entre los títulos (ajusta según tu preferencia) */
+  }
+  
+  .header-nav a {
+    text-decoration: none;
+    color: #333; /* Color de texto (ajusta según tu preferencia) */
+  }
+  
+  .header-nav {
+    margin-left: auto; /* Empujar los títulos al extremo derecho */
+  }
+  

@@ -1,0 +1,103 @@
+.background-image 
+    {
+        background-size: 100% auto;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 600px; /* Ajusta la altura según tus necesidades */
+        position: relative; /* Asegura que el contenido se posicione en relación con este div */
+        background-size: cover; /* Ajusta el tamaño de la imagen de fondo para cubrir el div */
+        color: white; /* Color del texto (ajusta según tu preferencia) */
+        padding: 20px; /* Espacio alrededor del texto (ajusta según tu preferencia) */
+    }
+      
+.title 
+    {
+        position: absolute;
+        top: 30%; /* Coloca el texto en el centro vertical del div de fondo */
+        margin-left: 50px;
+        width: 300px;
+        font-size: 60px;
+        color: #0702fe;
+    }
+.title2
+    {
+        font-size: 40px;
+        color: #0702fe;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%; /* Asegura que el texto ocupe toda la altura del contenedor */
+    }
+
+.content1
+    {
+        margin-left: 70px;
+    }      
+
+
+.content2 
+    {
+        margin-left: 500px;
+        margin-top:-310px;
+    }
+
+.content3 
+    {
+       margin-left: 900px;
+       margin-top: -295px;
+    }
+
+
+ img
+    {
+        margin-left: 60px;
+    }
+      
+p.description
+    {
+        margin-left: -20px;
+    }    
+
+h2
+    {
+    color: #0702fe;
+    }
+
+.content4
+    {
+        font-size: 27px;
+        color: #0702fe;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        height: 100%; /* Asegura que el texto ocupe toda la altura del contenedor */
+    }
+
+.content5
+    {
+        font-size: 20px;
+        display: flex;
+        justify-content: left;
+    }
+
+p.description5
+    {
+        margin-top: 80px;
+        width: 450px;
+        margin-left: 10px;
+    }
+
+.content6
+    {
+        width: 250px;
+        display: flex;
+        margin-left: -60px;
+    }
+
+.contact-button
+{
+    margin-left: -450px;
+    margin-top: 350px;
+}

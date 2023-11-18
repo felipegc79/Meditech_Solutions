@@ -1,0 +1,14 @@
+<div class="form-popup" id="myForm">
+    <form action="https://meditech.crmquirky.com.co/api/customers/save" class="form-container">
+        <div id="wp-title"><h4>Hola!</h4> Por favor completa los siguientes campos<br>para iniciar una conversarsación en WhatsApp</div>
+        <input  type="text" placeholder="Nombre*" name="Nombre" required>
+        <input  type="text" title="10 digits" placeholder="Celular* 10 digits" name="Celular" pattern="[0-9]{10}" required maxlength="10">
+        <input type="hidden" name="source_id" id="source_id" value="8">
+        <input type="hidden" name="user_id" id="user_id" value="107">
+        <div id="wp-footer">Al proporcionar mi información acepto la <a href="https://api.whatsapp.com/send/?phone=573028482778&text&type=phone_number&app_absent=0">Politica de privacidad</a>.</div>
+        <button type="submit" class="btn">Iniciar conversación</button>
+    </form>
+</div>
+
+
+
