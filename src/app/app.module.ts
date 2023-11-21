@@ -8,10 +8,11 @@ import { HomeComponent } from './welcome/page/home/home.component';
 import { NosotrosComponent } from './welcome/page/nosotros/nosotros.component';
 import { RouterModule, Routes } from '@angular/router';
 import { SharedModule } from './shared/shared.module';
+import { AppRoutingModule } from './app-routing.module';
 
 const routes: Routes = [
   {
-    path: '',
+    path: 'Home',
     component: HomeComponent
   },
   
@@ -32,8 +33,9 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes),
-    SharedModule
+    AppRoutingModule,
+    SharedModule,
+    RouterModule
   ],
   providers: [],
   bootstrap: [AppComponent]
